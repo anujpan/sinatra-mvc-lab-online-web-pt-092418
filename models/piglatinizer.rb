@@ -1,6 +1,6 @@
 class PigLatinizer
 
-     def piglatinize(message)
+    def piglatinize(message)
         if message.split(" ").length == 1
             piglatinize_word(message)
         else
