@@ -6,7 +6,6 @@ class PigLatinizer
   end
 
    def piglatinize(string)
-    #translates word into piglatin
     a = string.split(" ")
     b = a.map {|word| piglatinize_word(word)}
     b.join(" ")
